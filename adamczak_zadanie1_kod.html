@@ -1,0 +1,78 @@
+
+<textarea cols=70 rows=19>
+<html>
+ <head>
+ <title>Przykład nr tutaj wpisz odpowiedni nume </title>
+ <script language="JavaScript">
+ function WinOpen_adamczak()
+ {
+window.open("adamczak_z1_obraz.html","okienko","toolbar=no,directories=no,menubar=no,Resizable=no");
+ }
+ </script>
+ </head>
+<body>
+ <form>
+ <input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen_adamczak()">
+ </form>
+</body>
+</html>
+</textarea>
+
+<textarea cols=70 rows=64>
+<html>
+ <head>
+ <script type="text/javascript">
+ function okno_zamknij_adamczak()
+ {
+ window.close()
+ }
+ </script>
+ </head>
+ 
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_adamczak()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+<h4>Kiedy powstał język Java Script?</h4>
+Powstał w 1995 roku.<br>
+<h4>Dlaczego jest to język skryptowy?</h4>
+Aplikacje w języku Java działają w maszynie wirtualnej lub w przeglądarce, a kod JavaScript jest uruchamiany wyłącznie w przeglądarkach. Kod języka Java wymaga skompilowania, a kod JavaScript pozostaje w formie tekstu.<br>
+<h4>Gdzie jest wykorzystywany język JavaScript?</h4>
+-w znaczniku body;<br>
+-w znaczniku head<br>
+-w znaczniku html<br>
+-w pliku zewnętrznym<br>
+ <h4>Dlaczego jest to bezpieczne narzędzie?</h4>
+ Ponieważ, Java ma okraniczony dostęp do komputera.<br>
+ <input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')">
+Tworzy przycisk, który po wcisnięciu otwiera nowe okno w przeglądarce<br><br>
+
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+Otwiera nowe okno w przeglądarce z ukrytym paskiem narzędzi, ukrytym przyciskiem i ukrytym menu przeglądarki. Otwarte okno ma 280px wysokości, 160px szerokość, 200px od góry ekranu, 200px od lewej strony ekranu <br><br>
+
+toolbar=no  -ukrywa standardowy pasek narzędzi<br>
+directories=no -ukrywa przyciski katalogów<br>
+menubar=no, -ukrywa menu przeglądarki<br>
+Location=no, -ukrywa pasek adresowy<br>
+Resizable=no, -określa brak możliwości zmiany rozmiaru okna<br>
+Scrollbars=no, -ukrywa paski przewijania<br>
+Status=no, -ukrywa pasek statusu<br>
+height=280, -ustawia wysokość okna<br>
+width=160, -ustawia szerokość okna<br>
+top=200, -ustawia położenie okna względem góry ekranu<br>
+left=200, -ustawia położenie okna względem lewej strony ekranu<br>
+window.open, -otwarcie nowego okna<br>
+window.close, -zamknięcie okna<br>
+
+ 
+<img src="obraz1.gif" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_adamczak()"/>
+</body>
+</html>
+</textarea>
