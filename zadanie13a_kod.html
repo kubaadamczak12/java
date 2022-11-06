@@ -1,0 +1,38 @@
+<textarea rows="50" cols="200">
+<html>
+	<body>
+		<div style="color:blue;font-size:50px;">
+			<script language="JavaScript">
+			
+				var liczba1=prompt("c=","");
+				var liczba2=prompt("b=","");
+				
+				
+				var c_ada=parseFloat(liczba1);
+				var b_ada=parseFloat(liczba2);
+				
+				
+				document.write("c="+c_ada.toFixed(3)+" cm"+"<br>");
+				document.write("b="+b_ada.toFixed(3)+" cm"+"<br>");
+				
+				
+				a_ada=Math.sqrt(Math.pow(c_ada,2)-Math.pow(b_ada,2));
+				document.write("a="+a_ada.toFixed(3)+" cm"+"<br>");
+				
+				
+				sin_alfa_ada=b_ada/c_ada;
+				document.write("sin="+sin_alfa_ada.toFixed(3)+"<br>");
+				
+				
+				alfa_ada=Math.asin(b_ada/c_ada)*(180/Math.PI);
+				document.write("alfa="+alfa_ada.toFixed(3)+" st"+"<br>");
+				
+				
+				obw_ada=(a_ada+b_ada+c_ada);
+				document.write("Obwod="+obw_ada.toFixed(3)+" cm"+"<br>");
+				
+				
+			</script>
+		</div>
+	</body>
+</html>
